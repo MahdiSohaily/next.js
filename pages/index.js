@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Layout, { siteTitle } from '../components/layout';
-import { getSortedPostsData } from '../lib/posts';
+import { getSortedPostsData } from '../libs/posts';
 import utilStyles from '../styles/utils.module.css';
 
 export default function Home({ allPostsData }) {
